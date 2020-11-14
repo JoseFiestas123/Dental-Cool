@@ -1,0 +1,39 @@
+/*Libreria de estilos / Variables / etc */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+/*Css Import*/
+@import url('header.css');
+@import url('features.css');
+@import url('more-features.css');
+@import url('about.css');
+
+/*Variables*/
+:root{
+    /*Colores de la Web*/
+    --color-white:#fff;
+    --color-azul:#2067f5;
+    --color-black:#0e0e0e;
+    /*Tipos de letra*/
+    --font-logo:'Oswald', sans-serif;
+    --font-main-principal:'Montserrat', sans-serif;
+    --font-title: 'Poppins', sans-serif;
+    --parrafo-font:'Raleway', sans-serif;
+    /*Sizes de las Fonts*/
+    --logo-size:26px;
+    --size-menu:17px;
+    --font-size-title:45px;
+    --boton-size:18px;
+}
+/*Cabios | Scroll | * */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}

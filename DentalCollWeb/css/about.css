@@ -1,0 +1,40 @@
+/*About / Información*/
+
+.about-info h2{
+    font-family: var(--font-title);
+    color: var(--color-black);
+    text-align: left;
+    font-size: var(--font-size-title);
+    padding-top: 25px;
+    padding-left: 80px;
+    user-select: none;
+}
+
+.about-info p{
+    width: 650px;
+    font-family: var(--parrafo-font);
+    color: var(--color-black);
+    font-size: var(--size-menu);
+    padding-top: 20px;
+    user-select: none;
+    padding-left: 90px;
+    padding-bottom: 15px;
+    user-select: none;
+}
+
+.info-about{
+    display: inline-block;
+}
+
+.about-info img{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+.fa-check{
+    color: var(--color-azul);
+}

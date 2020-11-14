@@ -1,0 +1,40 @@
+/*More Features*/
+
+.more-features{
+    width:100%;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-image: url("../images/more-features.png");
+    margin-top: 50px;
+}
+
+/*Features Texto*/
+.more-title{
+    display: inline-block;
+    margin-left: 50px;
+}
+.more-text-features{
+    display: inline-block;
+}
+
+.more-title h2{
+    font-family: var(--font-title);
+    color: var(--color-white);
+    font-size: var(--font-size-title);
+    text-align: left;
+}
+
+.more-title p{
+    width: 450px;
+    font-family: var(--parrafo-font);
+    color: var(--color-white);
+    font-size: var(--size-menu);
+    text-align: left;
+}
+
+.fa-teeth-open{
+    padding:18px 10px 10px 15px;
+    font-size: 25px;
+    color: var(--color-white);
+    user-select: none;
+}

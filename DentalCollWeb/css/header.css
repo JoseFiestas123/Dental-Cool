@@ -1,0 +1,113 @@
+/*Header de la Web*/
+
+header{
+    width:100%;
+    height: 38em;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-image: url("../images/fondo-header.png");
+}
+
+/*Cacebera fonts*/
+
+.main-principal{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between
+}
+
+.logo-principal{
+    font-family: var(--font-logo);
+    font-size: var(--logo-size);
+    font-weight: bold;
+    color: var(--color-white);
+    display: inline-block;
+    padding-left: 90px;
+    padding-top: 20px;
+    user-select: none;
+}
+
+/*Menu de la web*/
+
+ul{
+    display: inline-block;
+    margin-right: 90px;
+}
+ul li{
+    font-family: var(--font-main-principal);
+    display: inline-block;
+    padding: 35px 15px 5px 15px;
+}
+
+ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: var(--size-menu);
+}
+
+ul li a:hover{
+    border-bottom: 3px solid var(--color-white);
+}
+
+/*Titulo Principal*/
+.title-principal{
+    padding-top: 100px;
+}
+
+.title-principal h1,h2{
+    font-family: var(--font-title);
+    font-size: var(--font-size-title);
+    text-align: center;
+    color: var(--color-white);
+    font-weight: bold;
+    user-select: none;
+}
+
+/*Parrafo de Header*/
+
+.title-principal p{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--parrafo-font);
+    color: var(--color-white);
+    font-size: var(--size-menu);
+    padding-top: 10px;
+    user-select: none;
+}
+
+/*Boton de Contac Us*/
+
+.boton-contact-us{
+    width: 170px;
+    font-family: var(--parrafo-font);
+    font-weight: bold;
+    font-size: var(--boton-size);
+    text-align: center;
+    border-radius: 26px;
+    background-color: var(--color-white);
+    color: var(--color-azul);
+    padding:15px 30px 15px 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    user-select: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.boton-contact-us:hover{
+    background-color: var(--color-azul);
+    color: var(--color-white);
+    transition: 0.3s;
+}
+
+/*Imagen Web Header*/
+
+.title-principal img{
+    width: 100px;
+}
+
+/*Fin de Header*/
